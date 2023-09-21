@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:  #FFD900;
+}
+header img{
+    margin: 17px 48px;
+}
+#content{
+    max-width: 90%;
+    margin: 0 auto;
+}
+#info{
+    text-align: center;
+    background-color: #514988;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 80px 35px 80px 35px;
+    float: left;
+    width: 40%;
+    height: 400px;
+}
+#info h1{
+    color: #FFD900;
+    font-weight: 700;
+    padding-bottom:20px ;
+    font-size: 40px;
+}
+#info h3{
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+#info p{
+    max-width: 450px;
+    font-size: 18px;
+}
+#countdown{
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #514988;
+
+}
+#countdown h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+h2{
+    color:#E33881 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+video{
+    max-width: 74%;
+    margin: 17px auto;
+   
+}
+#video{
+    justify-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+#areafinal{
+    display: grid;
+    grid-auto-flow: column;
+}
+#ingresso{
+    display: grid;
+    grid-auto-flow: column;
+}
