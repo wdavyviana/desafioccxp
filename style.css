@@ -17,10 +17,10 @@ header img{
     background-color: #514988;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 80px 35px 80px 35px;
+    padding: 50px 35px 50px 35px;
     float: left;
     width: 40%;
-    height: 400px;
+    min-height: 400px;
 }
 #info h1{
     color: #FFD900;
@@ -33,7 +33,6 @@ header img{
     padding-bottom: 23px;
 }
 #info p{
-    max-width: 450px;
     font-size: 18px;
 }
 #countdown{
@@ -58,7 +57,7 @@ h2{
     margin-top: 10px;
 }
 video{
-    max-width: 74%;
+    max-width: 78%;
     margin: 17px auto;
    
 }
@@ -70,8 +69,38 @@ video{
 #areafinal{
     display: grid;
     grid-auto-flow: column;
+    clear: left;
+    text-align: center;
+    padding: 20px;
+
+}
+#areafinal h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFD900;
+    margin-bottom: 15px;
+
 }
 #ingresso{
     display: grid;
     grid-auto-flow: column;
 }
+#button button {
+    border: none;
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #514988;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+#button{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
